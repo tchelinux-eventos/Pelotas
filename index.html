@@ -20,6 +20,13 @@
           html { height: 100% }
           body { height: 100%; margin: 0; padding: 0 }
           #map_canvas { height: 100% ; margin: 0 auto 0 auto; width: 80%; }
+          .schedule-time { font-weight: bold; }
+          .speaker { font-style: italic; }
+          .slides {
+                margin: 0 0 0 -58px;
+                padding: 2px 2px 2px 2px;
+                font-size: small;
+          }
         </style>
 
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
@@ -111,9 +118,18 @@
     <thead>
       <tr>
         <th class="schedule-time">Hor&aacute;rio</th>
-<td class="schedule-slot" colspan="1" style="text-align:center">Sala 1</td>
-<td class="schedule-slot" colspan="1" style="text-align:center">Sala 2</td>
-<td class="schedule-slot" colspan="1" style="text-align:center">Sala 3</td>
+<td class="schedule-slot" colspan="1" style="text-align:center">Sala 1<br/>
+<small>Sysadmin e Cloud</small>
+</td>
+<td class="schedule-slot" colspan="1" style="text-align:center">Sala 2<br/>
+<small>Desenvolvimento e Marketing</small>
+</td>
+<td class="schedule-slot" colspan="1" style="text-align:center">Sala 3<br/>
+<small>Distribuições e Aplicações</small>
+</td>
+<td class="schedule-slot" colspan="1" style="text-align:center">Sala 4<br/>
+<small>Sistemas embarcados e Internet das Coisas</small>
+</td>
       </tr>
     </thead>
   <tbody>
@@ -121,14 +137,14 @@
 
 <tr class="schedule-other">
   <td class="schedule-time">08:30</td>
-  <td class="schedule-slot" colspan="3" style="text-align:center">
+  <td class="schedule-slot" colspan="4" style="text-align:center">
     <span class="description">Recepção / Credenciamento</span>
   </td>
 </tr>
 
 <tr class="schedule-other">
   <td class="schedule-time">09:00</td>
-  <td class="schedule-slot" colspan="3" style="text-align:center">
+  <td class="schedule-slot" colspan="4" style="text-align:center">
     <span class="description">Abertura do Evento<br/>Auditório Dom Antônio Zattera</span>
   </td>
 </tr>
@@ -141,12 +157,17 @@
     <span class="speaker">Jerônimo Madruga</span>
   </td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-2"><span class="description">Comece Pelo Fim - Estratégia no Marketing Digital</span></a>
+    <a href="#speech-2"><span class="description">Laravel: O Framework do PHP moderno</span></a>
     <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Robson Couto</span>
+    <span class="speaker">Edécio Iepsen</span>
   </td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-3"><span class="description">Construindo um Storage de baixo custo e escalável com ARM e GlusterFS</span></a>
+    <a href="#speech-3"><span class="description">Distribuições Linux</span></a>
+    <span class="label label-success">Principiante</span>
+    <span class="speaker">Rafel Jeffman</span>
+  </td>
+  <td class="schedule-slot" colspan="1" style="text-align:center">
+    <a href="#speech-4"><span class="description">Construindo um Storage de baixo custo e escalável com ARM e GlusterFS</span></a>
     <span class="label label-success">Principiante</span>
     <span class="speaker">Leonardo Vaz</span>
   </td>
@@ -154,35 +175,51 @@
 <tr class="schedule-other">
   <td class="schedule-time">10:30</td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-4"><span class="description">Administração de Sistemas</span></a>
+    <a href="#speech-5"><span class="description">Administração de Sistemas</span></a>
     <span class="label label-warning">Intermediário</span>
     <span class="speaker">Vinicius Hax</span>
   </td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-5"><span class="description">Distribuições Linux</span></a>
+    <a href="#speech-6"><span class="description">Com que ônibus eu vou?<br/>Uma gentil introdução a Python.</span></a>
     <span class="label label-success">Principiante</span>
-    <span class="speaker">Rafel Jeffman</span>
+    <span class="speaker">Rafael Guterres Jeffman</span>
   </td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-6"><span class="description">Melhorando o Sistema Eleitoral Brasileiro com a arquitetura Blockchain</span></a>
+    <a href="#speech-7"><span class="description">LibreOffice</span></a>
+    <span class="label label-success">Principiante</span>
+    <span class="speaker">Ivan Ritta</span>
+  </td>
+  <td class="schedule-slot" colspan="1" style="text-align:center">
+    <a href="#speech-8"><span class="description">Melhorando o Sistema Eleitoral Brasileiro com a arquitetura Blockchain</span></a>
     <span class="label label-success">Principiante</span>
     <span class="speaker">Pablo Margreff</span>
   </td>
 </tr>
 <tr class="schedule-other">
+  <td class="schedule-time">11:30</td>
+  <td class="schedule-slot" colspan="4" style="text-align:center">
+    <span class="description">Intervalo para Almoço</span>
+  </td>
+</tr>
+<tr class="schedule-other">
   <td class="schedule-time">13:00</td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-7"><span class="description">Open Source Cloud Computing (ou "Tudo o que você sempre quis saber sobre Cloud, mas tinha medo de perguntar!")</span></a>
-    <span class="label label-success">Principiante</span>
+    <a href="#speech-9"><span class="description">Introdução ao Ceph</span></a>
+    <span class="label label-warning">Intermediário</span>
     <span class="speaker">Leonardo Vaz</span>
   </td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-8"><span class="description">Detectando objetos em vídeo com OpenCV e Python</span></a>
+    <a href="#speech-10"><span class="description">Saindo do modelo tradicional para o ágil: como se adaptar nessa transição,</span></a>
     <span class="label label-success">Principiante</span>
-    <span class="speaker">Felipe Corrêa</span>
+    <span class="speaker">Rodrigo Ferro</span>
+  </td>
+  <td class="schedule-slot" colspan="1" style="text-align:center">
+    <a href="#speech-11"><span class="description">Expressões regulares para impacientes<span></a>
+    <span class="label label-success">Principiante</span>
+    <span class="speaker">João Avelino</span>
   </td>
   <td class="schedule-slot" colspan="1" rowspan="2" style="text-align:center;vertical-align:middle">
-    <a href="#speech-9"><span class="description">Yocto Project, um framework para desenvolvimento de Linux Embarcado</span></a>
+    <a href="#speech-12"><span class="description">Yocto Project, um framework para desenvolvimento de Linux Embarcado</span></a>
     <span class="label label-warning">Intermediário</span>
     <span class="speaker">Otavio Salvador</span>
   </td>
@@ -190,38 +227,54 @@
 <tr class="schedule-other">
   <td class="schedule-time">14:00</td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-10"><span class="description">Shell Scripts: uma interface para o Linux</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">João Avelino</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-11"><span class="description">Laravel: O Framework do PHP moderno</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Edécio Iepsen</span>
-  </td>
-</tr>
-<tr class="schedule-other">
-  <td class="schedule-time">15:00</td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
     <a href="#speech-13"><span class="description">Docker para desenvolvedores</span></a>
     <span class="label label-warning">Intermediário</span>
     <span class="speaker">Anderson Conson</span>
   </td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-14"><span class="description">Moodle direto das trincheiras: Como implementar e manter uma plataforma EAD baseada em Software Livre</span></a>
+    <a href="#speech-14"><span class="description">Comece Pelo Fim - Estratégia no Marketing Digital</span></a>
+    <span class="label label-warning">Intermediário</span>
+    <span class="speaker">Robson Couto</span>
+  </td>
+  <td class="schedule-slot" colspan="1" style="text-align:center">
+    <a href="#speech-15"><span class="description">Shell Scripts: uma interface para o Linux</span></a>
+    <span class="label label-success">Principiante</span>
+    <span class="speaker">João Avelino</span>
+  </td>
+</tr>
+<tr class="schedule-other">
+  <td class="schedule-time">15:00</td>
+  <td class="schedule-slot" colspan="4" style="text-align:center">
+    <span class="description"><i>Coffe Break</i></span>
+  </td>
+</tr>
+<tr class="schedule-other">
+  <td class="schedule-time">15:30</td>
+  <td class="schedule-slot" colspan="1" style="text-align:center">
+    <a href="#speech-16"><span class="description">Tudo o que você sempre quis saber sobre Cloud, mas tinha medo de perguntar!</span></a>
+    <span class="label label-success">Principiante</span>
+    <span class="speaker">Leonardo Vaz</span>
+  </td>
+  <td class="schedule-slot" colspan="1" style="text-align:center">
+    <a href="#speech-17"><span class="description">Detectando objetos em vídeo com OpenCV e Python</span></a>
+    <span class="label label-warning">Intermediário</span>
+    <span class="speaker">Felipe Corrêa</span>
+  </td>
+  <td class="schedule-slot" colspan="1" style="text-align:center">
+    <a href="#speech-18"><span class="description">Moodle direto das trincheiras: Como implementar e manter uma plataforma EAD baseada em Software Livre</span></a>
     <span class="label label-success">Principiante</span>
     <span class="speaker">Jerônimo Madruga</span>
   </td>
   <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-15"><span class="description">Desenvolvendo uma aplicação híbrida utilizando Qt WebEngine</span></a>
+    <a href="#speech-19"><span class="description">Qt WebEngine em Sistemas Embarcados</span></a>
     <span class="label label-warning">Intermediário</span>
     <span class="speaker">Gustavo Barreto</span>
   </td>
 </tr>
 <tr class="schedule-other">
-  <td class="schedule-time">16:00</td>
-  <td class="schedule-slot" colspan="3" style="text-align:center">
-    <span class="description">Painel Software Livre e o carreira profissional<br/>Auditório Don Antônio Zaterra</span>
+  <td class="schedule-time">16:30</td>
+  <td class="schedule-slot" colspan="4" style="text-align:center">
+    <span class="description">Painel: O impacto do Software Livre na carreira profissional<br/>Auditório Don Antônio Zaterra</span>
     <span class="label label-info">Todo o Público</span>
     <span class="speaker">Moderador: Carlos Schwab</span>
   </td>
@@ -236,10 +289,14 @@
     <div class="container">
         <h2 class="subtitle">Palestras</h2>
 
-        <div id="speech-1" class=speech-container>
+        <div id="speech-1" class="speech-container">
             <span class="speech-time">09:30</span>
             <div class="speech-info">
-                <h3 class="speech-title">Aprendendo a aprender sobre Software Livre</h3>
+                <h3 class="speech-title">Aprendendo a aprender sobre Software Livre
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
                 <span class="speech-description">
                     Você fica perdido ao tentar aprender sobre software
                     livre? Não sabe qual linguagem aprender primeiro? Não
@@ -271,9 +328,304 @@
         </div>
 
         <div id="speech-2" class=speech-container>
+            <span class="speech-time">14:00</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Laravel: O Framework do PHP moderno
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                    Apresentar os principais recursos e benefícios do
+                    desenvolvimento de aplicações Web com o uso do Framework
+                    PHP Laravel.
+                </span>
+                <h3 class="speaker-name">Edécio Fernando Iepsen</h3>
+                <span class="speaker-bio">
+                    Professor da Faculdade de Tecnologia Senac Pelotas.
+                    Mestre em Ciência da Computação (UCPel) e Doutor em
+                    Informática na Educação (UFRGS). Atua no desenvolvimento
+                    de sistemas Web em PHP há mais de 10 anos.
+                </span>
+            </div>
+        </div>
+
+        <div id="speech-3" class=speech-container>
+            <span class="speech-time">10:30</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Distribuições Linux
+                <a href="http://rafaeljeffman.com/slides/linux_distro.pdf">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                    Um histórico das distribuições Linux, mostrando o
+                    porquê da sua criação, de onde vieram, como criá-las,
+                    e terminando na sua "última distribuição Linux".
+                </span>
+                <h3 class="speaker-name">Rafael Guterres Jeffman</h3>
+                <span class="speaker-bio">
+                    Mestre em Computação Aplicada pela Unisinos,
+                    é professor na Faculdade Senac Porto Alegre, onde leciona as
+                    disciplinas de algoritmos e estruturas de dados. Seus interesses
+                    de pesquisa são a percepção do mundo por computadores, através da
+                    visão computacional e do reconhecimento de voz, inteligência
+                    artificial, machine learning, e o ensivo de linguagens de
+                    programação assistido por computadores. Fotógrafo, iniciou
+                    um projeto para a criação de um ambiente baseado apenas em
+                    software livre para fotografia profissional.
+               </span>
+            </div>
+        </div>
+
+        <div id="speech-4" class=speech-container>
             <span class="speech-time">09:30</span>
             <div class="speech-info">
-                <h3 class="speech-title">Comece Pelo Fim - Estratégia no Marketing Digital</h3>
+                <h3 class="speech-title">Construindo um Storage de baixo custo e escalável com ARM e GlusterFS
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                    Placas ARM, discos e software livre são tudo que você
+                    precisa para montar uma solução de armazenamento escalável,
+                    suportando volumes distribuidos e replicados.
+                    Nesta apresentação, falaremos sobre o processo de
+                    montagem do hardware, a instalação e configuração do
+                    GlusterFS e por fim a configuração dos volumes, mostrando
+                    o que é possível realizar com software livre, uma boa
+                    ideia e algumas centenas de Reais.
+                </span>
+                <h3 class="speaker-name">Leonardo Menezes Vaz</h3>
+                <span class="speaker-bio">
+                    Leonardo Vaz teve seu primeiro contato com o Software
+                    Livre no final de 1998, quando instalou o Red Hat Linux
+                    5.1 no seu antigo PC, e no últimos 19 anos tem participado
+                    da comunidade Brasileira. Atualmente trabalha com Sistemas
+                    de Arquivos distribuídos no time de Engenharia de Suporte
+                    da Red Hat.
+                </span>
+            </div>
+        </div>
+
+        <div id="speech-5" class=speech-container>
+            <span class="speech-time">10:30</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Administração de sistemas Linux: dicas e ferramentas
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">O objetivo da palestra
+                    será apresentar algumas dicas práticas para o dia-a-dia
+                    de quem pretende começar a trabalhar com administração
+                    de sistemas em geral e depois apresentar algumas
+                    ferramentas e comandos (nem tão conhecidos) que podem
+                    facilitar a vida de quem trabalha com administração de
+                    sistemas Linux. A palestra será baseada na experiência
+                    profissional do palestrante que trabalha profissionalmente
+                    com sistemas Linux por mais de 10 anos.
+                </span>
+                <h3 class="speaker-name">Vinícius Alves Hax</h3>
+                <span class="speaker-bio">
+                    Vinícius Alves Hax é formado em Engenharia de Computação
+                    e adotou o Linux como seu sistema principal em 2004.
+                    Se envolve com administração de servidores desde 2006.
+                    Já participou da organização de duas edições do TcheLinux
+                    em Rio Grande e palestrou algumas vezes em edições passadas
+                    do TcheLinux Pelotas. Seu github, um pouco empoeirado,
+                    é verdade, conta principalmente com alguns módulos
+                    para o gerenciador de configurações Puppet. Atualmente
+                    trabalha no IFSul, onde é parte da equipe de infraestrutura
+                    de TI, lidando principalmente com servidores Linux.
+                    Nos últimos anos tem se interessado bastante também por
+                    economia e política.
+                </span>
+            </div>
+        </div>
+
+        <div id="speech-6" class="speech-container">
+            <span class="speech-time">10:30</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Com que ônibus eu vou? Uma gentil introdução a Python.
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                Será realizada uma demonstração com a criação de um utilitário que indica qual ônibus uma pessoa pode utilizar para se locomover na cidade de Porto Alegre, utilizando os dados disponibilizados pela prefeitura da cidade. Nessa demostração serão apresentados alguns dos conceitos básicos de Python, utilizados na criação da aplicação.
+                </span>
+                <h3 class="speaker-name">Rafael Guterres Jeffman</h3>
+                <span class="speaker-bio">
+                    Mestre em Computação Aplicada pela Unisinos,
+                    é professor na Faculdade Senac Porto Alegre, onde leciona as
+                    disciplinas de algoritmos e estruturas de dados. Seus interesses
+                    de pesquisa são a percepção do mundo por computadores, através da
+                    visão computacional e do reconhecimento de voz, inteligência
+                    artificial, machine learning, e o ensivo de linguagens de
+                    programação assistido por computadores. Fotógrafo, iniciou
+                    um projeto para a criação de um ambiente baseado apenas em
+                    software livre para fotografia profissional.
+                </span>
+            </div>
+        </div>
+    
+        <div id="speech-7" class="speech-container">
+            <span class="speech-time">10:30</span>
+            <div class="speech-info">
+                <h3 class="speech-title">LibreOffice
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                Apresentação sobre o LibreOffice com dicas para usuários.
+                </span>
+                <h3 class="speaker-name">Ivan Ritta</h3>
+                <span class="speaker-bio">
+Ivan Ritta é Contador, Professor e usuário de Linux desde 1999 e já foi contribuiu um dos contribuidores mais ativos em um forum sobre OpenOffice mantido pela UNICAMP.
+                </span>
+            </div>
+        </div>
+        
+        <div id="speech-8" class=speech-container>
+            <span class="speech-time">10:30</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Melhorando o Sistema Eleitoral Brasileiro com a arquitetura Blockchain
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                    A palestra tem como objetivo explicar como o processo
+                    eleitoral ocorre hoje e toda a obscuridade que ele
+                    envolve, depois será introduzido o conceito de blockchain
+                    e como uma eleição pode acontecer a partir deste sistema,
+                    melhorando e deixando o processo eleitoral mais transparente.
+                    Além disso se dará uma introdução da implementação e da stack
+                    usada para isso.
+                </span>
+                <h3 class="speaker-name">Pablo Margreff</h3>
+                <span class="speaker-bio">
+                    Estudante de ciência da computação, desenvolvedor web
+                    e contribuidor de projetos open source tanto com código
+                    quanto com documentação. Projeto próprio julia vm, um
+                    gerênciador de versão para a linguagem de programação
+                    Julia. Contribuidor do projeto Serenata de amor e
+                    também no projeto materialize (framework front-end
+                    com guidelines do material design) tanto com código
+                    quanto com tradução de documentação.
+                </span>
+            </div>
+        </div>
+
+        <div id="speech-9" class="speech-container">
+            <span class="speech-time">13:00</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Introdução ao Ceph
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                Ceph é um sistema de arquivos distribuído projetado para ter excelente desempenho, confiabilidade e escalabilidade. Nesta palestra será abordada a arquitetura do Ceph e também seus principais casos de uso.
+                </span>
+                <h3 class="speaker-name">Leonardo Menezes Vaz</h3>
+                <span class="speaker-bio">
+                    Leonardo Vaz teve seu primeiro contato com o Software
+                    Livre no final de 1998, quando instalou o Red Hat Linux
+                    5.1 no seu antigo PC, e no últimos 19 anos tem participado
+                    da comunidade Brasileira. Atualmente trabalha com Sistemas
+                    de Arquivos Distribuídos no time de Engenharia de Suporte
+                    da Red Hat.
+                </span>
+            </div>
+        </div>
+    
+        <div id="speech-10" class="speech-container">
+            <span class="speech-time">13:00</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Saindo do modelo tradicional para o ágil: como se adaptar nessa transição.
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                Nessa palestra falo sobre como dar os primeiros passos e como se adaptar na transição de um modelo mais tradicional de gestão de projetos (modelo Cascata) para o modelo ágil (utilizando Scrum).
+                </span>
+                <h3 class="speaker-name">Rodrigo Ferro</h3>
+                <span class="speaker-bio">
+Rodrigo Ferro é Coordenador de Projetos na Possible Brasil e possui um MBA na área de Gestão de Projetos.
+                </span>
+            </div>
+        </div>
+
+        <div id="speech-11" class="speech-container">
+            <span class="speech-time">13:00</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Expressões regulares para impacientes
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                Esta palestra busca apresentar, para quem tem pressa, como utilizar os recursos mais elementares das expressões regulares e sua aplicação.
+                </span>
+                <h3 class="speaker-name">João Avelino</h3>
+                <span class="speaker-bio">
+Tecnólogo em Processamento de Dados pela UCPel, Mestre em Ciência da Computação pela UFRGS. Ministrou aulas na UCPel e Faculdade SENAC Porto Alegre. Atualmente é Software Maintenance Engineer na Red Hat especializado em redes.
+                </span>
+            </div>
+        </div>
+
+        <div id="speech-12" class=speech-container>
+            <span class="speech-time">13:00</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Yocto Project, um framework para
+                desenvolvimento de Linux Embarcado
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">Entenda porque o Yocto 
+                Project vem sendo adotado por diferentes empresas no mundo
+                e em quais situações ele ajuda no desenvolvimento de seu
+                produto.</span>
+                <h3 class="speaker-name">Otávio Salvador</h3>
+                <span class="speaker-bio">Otávio Salvador é empresário,
+                escritor e entusiasta de Software Livre. Está envolvido com
+                desenvolvimento de Linux Embarcado desde 2008 em diferentes
+                indústrias.</span>
+            </div>
+        </div>
+
+        <div id="speech-13" class=speech-container>
+            <span class="speech-time">14:00</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Docker para desenvolvedores
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                    Apresentação do projeto Docker para automatização de tarefas dos desenvolvedores.
+                </span>
+                <h3 class="speaker-name">Anderson Minuto Consoni Vaz</h3>
+                <span class="speaker-bio">
+                    Socio Proprietário da WDHouse, Desenvolvedor a 11 anos
+                    e Consultor e Evangelista DevOps.
+                </span>
+            </div>
+        </div>
+
+        <div id="speech-14" class=speech-container>
+            <span class="speech-time">14:00</span>
+            <div class="speech-info">
+                <h3 class="speech-title">Comece Pelo Fim - Estratégia no Marketing Digital
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
                 <span class="speech-description">
                     Vou falar sobre a metodologia do Inbound Marketing
                     aplicada em negócios que utilizam a internet para
@@ -304,119 +656,37 @@
             </div>
         </div>
 
-        <div id="speech-3" class=speech-container>
-            <span class="speech-time">09:30</span>
+        <div id="speech-15" class=speech-container>
+            <span class="speech-time">14:00</span>
             <div class="speech-info">
-                <h3 class="speech-title">Construindo um Storage de baixo custo e escalável com ARM e GlusterFS</h3>
+                <h3 class="speech-title">Shell Scripts: uma interface para o Linux
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
                 <span class="speech-description">
-                    Placas ARM, discos e software livre são tudo que você
-                    precisa para montar uma solução de armazenamento escalável,
-                    suportando volumes distribuidos e replicados.
-                    Nesta apresentação, falaremos sobre o processo de
-                    montagem do hardware, a instalação e configuração do
-                    GlusterFS e por fim a configuração dos volumes, mostrando
-                    o que é possível realizar com software livre, uma boa
-                    ideia e algumas centenas de Reais.
+                Apresentação de utilitários para construir interfaces amigáveis
+                para shell scripts.
                 </span>
-                <h3 class="speaker-name">Leonardo Menezes Vaz</h3>
+                <h3 class="speaker-name">João Avelino</h3>
                 <span class="speaker-bio">
-                    Leonardo Vaz teve seu primeiro contato com o Software
-                    Livre no final de 1998, quando instalou o Red Hat Linux
-                    5.1 no seu antigo PC, e no últimos 19 anos tem participado
-                    da comunidade Brasileira. Atualmente trabalha com Sistemas
-                    de Arquivos distribuídos no time de Engenharia de Suporte
-                    da Red Hat.
+                    Tecnólogo em Processamento de Dados pela UCPel, Mestre
+                    em Ciência da Computação pela UFRGS. Ministrou aulas na
+                    UCPel e Faculdade SENAC Porto Alegre. Atualmente é
+                    Software Maintenance Engineer na Red Hat especializado
+                    em redes.
                 </span>
             </div>
         </div>
 
-        <div id="speech-4" class=speech-container>
-            <span class="speech-time">10:30</span>
+        <div id="speech-16" class=speech-container>
+            <span class="speech-time">15:30</span>
             <div class="speech-info">
-                <h3 class="speech-title">Administração de sistemas Linux: dicas e ferramentas</h3>
-                <span class="speech-description">O objetivo da palestra
-                    será apresentar algumas dicas práticas para o dia-a-dia
-                    de quem pretende começar a trabalhar com administração
-                    de sistemas em geral e depois apresentar algumas
-                    ferramentas e comandos (nem tão conhecidos) que podem
-                    facilitar a vida de quem trabalha com administração de
-                    sistemas Linux. A palestra será baseada na experiência
-                    profissional do palestrante que trabalha profissionalmente
-                    com sistemas Linux por mais de 10 anos.
-                </span>
-                <h3 class="speaker-name">Vinícius Alves Hax</h3>
-                <span class="speaker-bio">
-                    Vinícius Alves Hax é formado em Engenharia de Computação
-                    e adotou o Linux como seu sistema principal em 2004.
-                    Se envolve com administração de servidores desde 2006.
-                    Já participou da organização de duas edições do TcheLinux
-                    em Rio Grande e palestrou algumas vezes em edições passadas
-                    do TcheLinux Pelotas. Seu github, um pouco empoeirado,
-                    é verdade, conta principalmente com alguns módulos
-                    para o gerenciador de configurações Puppet. Atualmente
-                    trabalha no IFSul, onde é parte da equipe de infraestrutura
-                    de TI, lidando principalmente com servidores Linux.
-                    Nos últimos anos tem se interessado bastante também por
-                    economia e política.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-5" class=speech-container>
-            <span class="speech-time">10:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Distribuições Linux</h3>
-                <span class="speech-description">
-                    Um histórico das distribuições Linux, mostrando o
-                    porquê da sua criação, de onde vieram, como criá-las,
-                    e terminando na sua "última distribuição Linux".
-                </span>
-                <h3 class="speaker-name">Rafael Guterres Jeffman</h3>
-                <span class="speaker-bio">
-                    Mestre em Computação Aplicada pela Unisinos,
-                    é professor na Faculdade Senac Porto Alegre, onde leciona as
-                    disciplinas de algoritmos e estruturas de dados. Seus interesses
-                    de pesquisa são a percepção do mundo por computadores, através da
-                    visão computacional e do reconhecimento de voz, inteligência
-                    artificial, machine learning, e o ensivo de linguagens de
-                    programação assistido por computadores. Fotógrafo, iniciou
-                    um projeto para a criação de um ambiente baseado apenas em
-                    software livre para fotografia profissional.
-               </span>
-            </div>
-        </div>
-
-        <div id="speech-6" class=speech-container>
-            <span class="speech-time">10:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Melhorando o Sistema Eleitoral Brasileiro com a arquitetura Blockchain</h3>
-                <span class="speech-description">
-                    A palestra tem como objetivo explicar como o processo
-                    eleitoral ocorre hoje e toda a obscuridade que ele
-                    envolve, depois será introduzido o conceito de blockchain
-                    e como uma eleição pode acontecer a partir deste sistema,
-                    melhorando e deixando o processo eleitoral mais transparente.
-                    Além disso se dará uma introdução da implementação e da stack
-                    usada para isso.
-                </span>
-                <h3 class="speaker-name">Pablo Margreff</h3>
-                <span class="speaker-bio">
-                    Estudante de ciência da computação, desenvolvedor web
-                    e contribuidor de projetos open source tanto com código
-                    quanto com documentação. Projeto próprio julia vm, um
-                    gerênciador de versão para a linguagem de programação
-                    Julia. Contribuidor do projeto Serenata de amor e
-                    também no projeto materialize (framework front-end
-                    com guidelines do material design) tanto com código
-                    quanto com tradução de documentação.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-7" class=speech-container>
-            <span class="speech-time">13:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Open Source Cloud Computing (ou "Tudo o que você sempre quis saber sobre Cloud, mas tinha medo de perguntar!")</h3>
+                <h3 class="speech-title">Tudo o que você sempre quis saber sobre Cloud, mas tinha medo de perguntar!
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
                 <span class="speech-description">
                     O tema Computação em Nuvem é vastamente usado nos
                     dias de hoje, todavia se trata de um conceito um tanto
@@ -438,10 +708,14 @@
             </div>
         </div>
 
-        <div id="speech-8" class=speech-container>
-            <span class="speech-time">13:00</span>
+        <div id="speech-17" class=speech-container>
+            <span class="speech-time">15:30</span>
             <div class="speech-info">
-                <h3 class="speech-title">Detectando objetos em vídeo com OpenCV e Python</h3>
+                <h3 class="speech-title">Detectando objetos em vídeo com OpenCV e Python
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
                 <span class="speech-description">
                     Uma visão geral de como utilizar tecnologias livres
                     (como OpenCV, Python e GNU/Linux) para detectar e
@@ -468,82 +742,16 @@
             </div>
         </div>
 
-        <div id="speech-9" class=speech-container>
-            <span class="speech-time">13:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Yocto Project, um framework para
-                desenvolvimento de Linux Embarcado</h3>
-                <span class="speech-description">Entenda porque o Yocto 
-                Project vem sendo adotado por diferentes empresas no mundo
-                e em quais situações ele ajuda no desenvolvimento de seu
-                produto.</span>
-                <h3 class="speaker-name">Otávio Salvador</h3>
-                <span class="speaker-bio">Otávio Salvador é empresário,
-                escritor e entusiasta de Software Livre. Está envolvido com
-                desenvolvimento de Linux Embarcado desde 2008 em diferentes
-                indústrias.</span>
-            </div>
-        </div>
-
-        <div id="speech-10" class=speech-container>
-            <span class="speech-time">14:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Shell Scripts: uma interface para o Linux</h3>
-                <span class="speech-description">
-                Apresentação de utilitários para construir interfaces amigáveis
-                para shell scripts.
-                </span>
-                <h3 class="speaker-name">João Avelino Bellomo Filho</h3>
-                <span class="speaker-bio">
-                    Tecnólogo em Processamento de Dados pela UCPel, Mestre
-                    em Ciência da Computação pela UFRGS. Ministrou aulas na
-                    UCPel e Faculdade SENAC Porto Alegre. Atualmente é
-                    Software Maintenance Engineer na Red Hat especializado
-                    em redes.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-11" class=speech-container>
-            <span class="speech-time">14:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Laravel: O Framework do PHP moderno</h3>
-                <span class="speech-description">
-                    Apresentar os principais recursos e benefícios do
-                    desenvolvimento de aplicações Web com o uso do Framework
-                    PHP Laravel.
-                </span>
-                <h3 class="speaker-name">Edécio Fernando Iepsen</h3>
-                <span class="speaker-bio">
-                    Professor da Faculdade de Tecnologia Senac Pelotas.
-                    Mestre em Ciência da Computação (UCPel) e Doutor em
-                    Informática na Educação (UFRGS). Atua no desenvolvimento
-                    de sistemas Web em PHP há mais de 10 anos.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-13" class=speech-container>
-            <span class="speech-time">15:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Docker para desenvolvedores</h3>
-                <span class="speech-description">
-                    Apresentação do projeto Docker para automatização de tarefas dos desenvolvedores.
-                </span>
-                <h3 class="speaker-name">Anderson Minuto Consoni Vaz</h3>
-                <span class="speaker-bio">
-                    Socio Proprietário da WDHouse, Desenvolvedor a 11 anos
-                    e Consultor e Evangelista DevOps.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-14" class=speech-container>
-            <span class="speech-time">15:00</span>
+        <div id="speech-18" class=speech-container>
+            <span class="speech-time">15:30</span>
             <div class="speech-info">
                 <h3 class="speech-title">Moodle direto das trincheiras:
                     Como implementar e manter uma plataforma EAD baseada
-                    em Software Livre</h3>
+                    em Software Livre
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
                 <span class="speech-description">
                 Esta palestra visa repassar a experiência de uso e
                 implementação de um dos Ambiente Virtuais de Aprendizagem
@@ -570,10 +778,14 @@
             </div>
         </div>
 
-        <div id="speech-15" class=speech-container>
-            <span class="speech-time">15:00</span>
+        <div id="speech-19" class=speech-container>
+            <span class="speech-time">15:30</span>
             <div class="speech-info">
-                <h3 class="speech-title">Desenvolvendo uma aplicação híbrida utilizando Qt WebEngineo</h3>
+                <h3 class="speech-title">Qt WebEngine em Sistemas Embarcados
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
                 <span class="speech-description">Desenvolver uma aplicação 
                  híbrida pode ser uma tarefa árdua e complicada. Entretanto,
                  o framework Qt disponibiliza o módulo Qt WebEngine que pode
@@ -584,20 +796,25 @@
                     Qt e C++ em ambientes Linux.</span>
             </div>
         </div>
-
-
-        <!-- @RESUMOS@ -->
-        <!--
-        <div id="speech-@COUNT@" class=speech-container>
-            <span class="speech-time">@SLOT@</span>
+    <!-- TEMPLATE (2+16 linhas)
+        <div id="speech-"ID class="speech-container">
+            <span class="speech-time">HORA</span>
             <div class="speech-info">
-                <h3 class="speech-title">@TITLE@</h3>
-                <span class="speech-description">@DESCRIPTION@</span>
-                <h3 class="speaker-name">@AUTHOR@</h3>
-                <span class="speaker-bio">@BIO@</span>
+                <h3 class="speech-title">TITULO
+                <a href="#">
+                <span class="label label-default slides">SLIDES</span>
+                </a>
+                </h3>
+                <span class="speech-description">
+                DESCRIPTION
+                </span>
+                <h3 class="speaker-name">AUTHOR</h3>
+                <span class="speaker-bio">
+                </span>
             </div>
         </div>
-        -->
+    -->
+
     </div>
 </div>
 
