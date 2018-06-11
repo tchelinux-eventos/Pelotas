@@ -22,10 +22,10 @@ $('#footer-menu li a').on('click', function(event) {
 
 $('#buscar_caminho').on('click', function(e) {
     e.preventdefault()
-    if (navigator.geolocation) { 
+    if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
 
-        var point = new google.maps.LatLng(position.coords.latitude, 
+        var point = new google.maps.LatLng(position.coords.latitude,
                                     position.coords.longitude);
         calcRoute(point);
         });
@@ -47,13 +47,11 @@ $('.schedule-tbl a').on('click', function(event) {
 var directionsDisplay;
 var directionsService = new google.maps.DirectionsService();
 var map;
-var latitude = -31.774585;
-var longitude = -52.341002;
-var ftec = new google.maps.LatLng(latitude, longitude);
+var gps = new google.maps.LatLng(latitude, longitude);
 directionsDisplay = new google.maps.DirectionsRenderer();
 var mapOptions = {
   zoom:15,
-  center: ftec,
+  center: gps,
   streetViewControl: false,
   panControl: true,
   overviewMapControl: true,
@@ -65,9 +63,9 @@ directionsDisplay = new google.maps.DirectionsRenderer();
 directionsDisplay.setMap(map);
 directionsDisplay.setPanel(document.getElementById('directions-panel'));
 var marker = new google.maps.Marker({
-              position: ftec,
+              position: gps,
               map: map,
-              title:"FTEC Caxias do Sul"
+              title:"gps Caxias do Sul"
 });
 
 function calcRoute(starte) {
@@ -75,7 +73,7 @@ function calcRoute(starte) {
   if(starte != undefined) {
     start = starte;
   }
-  var end = ftec;
+  var end = gps;
   var request = {
       origin:start,
       destination:end,
@@ -102,7 +100,7 @@ google.maps.event.addListener(autocomplete, 'place_changed', function() {
 
 document.getElementById("search-route").addEventListener("keypress", function(e){
     if (e.keyCode == 13) {
-        calcRoute(); 
+        calcRoute();
         return false;
     }
 });

@@ -1,966 +1,204 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tchelinux 2017 Pelotas</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <style type="text/css">
-          html { height: 100% }
-          body { height: 100%; margin: 0; padding: 0 }
-          #map_canvas { height: 100% ; margin: 0 auto 0 auto; width: 80%; }
-          .schedule-time { font-weight: bold; }
-          .speaker { font-style: italic; }
-          .slides {
-                margin: 0 0 0 -58px;
-                padding: 2px 2px 2px 2px;
-                font-size: small;
-          }
-        </style>
-
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
-    </head>
-
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-
-                 <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#">Tchelinux</a>
-                    </div>
-
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="main-navbar">
-                      <ul class="nav navbar-nav">
-                        <li style="display:none;"><a href="#sobre">Sobre</a></li>
-                        <li><a href="#inscricao">Inscrições</a></li>
-                        <li><a href="#certificados">Certificados</a></li>
-                        <li><a href="#programacao">Programacao</a></li>
-                        <li><a href="#local">Local</a></li>
-                        <li><a href="#apoio">Apoio</a></li>
-                      </ul>
-                    </div>
-
-            </div>
-
-
-        </nav>
-
-
-        <header class="header">
-          <div class="wrapper">
-            <h1 class="logo-name">
-              <a class="logo-link" href="#" title="Tchelinux Pelotas" itemprop="name">Tchelinux <br/>Pelotas</a>
-            </h1>
-            <h2 class="tagline">10 de Junho de 2017, na UCPel em Pelotas</h2>
-          </div>
-        </header>
-
-
-
-
-        <section id="sobre">
-            <div class ="container">
-            <h2 class="subtitle">Sobre o Evento</h2>
-
-            <p>O Tchelinux em parceria com o Diretório Acadêmico da <a href="http://www.ucpel.tche.br/portal/?secao=cursos&tipo=1&id=342"><b>Engenharia de Computação</a></b> da <a href="http://www.ucpel.tche.br/portal/"><b>UCPel</b></a>, tem o orgulho de convidar a comunidade para participar do evento sobre Software Livre que ocorrerá no dia <b>10 de Junho de 2017</b> a partir das 08:30, na UCPel em Pelotas.</p>
-
-	    <p><a href="codigo_de_conduta.html"><b>Código de Conduta do Tchelinux.</b></a></p>
-
-        </section>
-
-
-        </section>
-        <section id="inscricao">
-          <div class="container">
-            <h2 class="subtitle">Inscrições</h2>
-            <p>
-                O evento é <b>gratuito</b>, contudo os participantes são encorajados a doar 2kg de alimentos não-perecíveis (exceto sal), que serão encaminhados a instituição de caridade de Pelotas. Os alimentos devem ser entregues no ato do credenciamento.
-            </p>
-	
-	    <p>
-		<b>Importante:</b> As inscrições pelo site foram encerradas as 10:00 do dia 8 de Junho de 2017 pois todas vagas disponíveis foram preenchidas. Agradecemos seu interesse!
-
-		<br />
-
-		Em caso de dúvida, favor envie um email to contato@tchelinux.org.
-	    <p>
-          </div>
-        </section>
-
-        <section id="certificados">
-          <div class="container">
-            <h2 class="subtitle">Certificados de Participação</h2>
-            <p>Obtenha seu certificado utilizando o email da inscrição no site <a href="https://certificados.tchelinux.org" target="_blank">https://certificados.tchelinux.org</a></p>
-            <!--
-            <p>Serão emitidos <b>certificados digitais</b> para os participantes do evento.</p>
-            -->
-          </div>
-        </section>
-
-
-    <!-- @PROGRAMACAO@ -->
+<head>
+    <base target="_blank">
+    <title>Tchelinux Pelotas - 2018</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- OpenGraph -->
+    <meta property="og:image" content="https://tchelinux.org/assets/tchelinux-facebook.png">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+    <!--Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Tchelinux Style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Tchelinux</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="nav navbar-nav">
+                <li style="display:none;"><a href="#sobre">Sobre</a></li>
+                <li><a href="#inscricao">Inscri&ccedil;&otilde;es</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#programacao">Programa&ccedil;&atilde;o</a></li>
+                <li><a href="#palestras">Palestras</a></li>
+                <li><a href="#local">Local</a></li>
+                <li><a href="#apoio">Apoio</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="header">
+  <div class="wrapper">
+    <h1 class="logo-name">
+      <a class="logo-link" href="#"
+         title="Tchelinux 2018 Pelotas" itemprop="name">Tchelinux 2018<br/>Pelotas</a>
+    </h1>
+    <h2 class="tagline">01 de Setembro de 2018 na Universidade Católica de Pelotas</h2>
+  </div>
+</header>
+<section id="sobre">
+    <div class ="container">
+    <h2 class="subtitle">Sobre o Evento</h2>
+    <p>O grupo de usu&aacute;rios de Software Livre Tchelinux, em parceria
+    com o Diretório Acadêmico da Engenharia de Computação, da <a href="https://ucpel.edu.br">Universidade Católica de Pelotas</a>,
+    tem o prazer de convidar a comunidade para participar do evento que
+    ocorrer&aacute; no dia <b>01 de Setembro de 2018</b> a partir das <b>08:30h</b>
+    na UCPEL em Pelotas.</p>
+    <p><a href="codigo_de_conduta.html" target="_top"><b>C&oacute;digo
+    de Conduta do Tchelinux.</b></a></p>
+</section>
+<section id="inscricao">
+  <div class="container">
+    <h2 class="subtitle">Inscri&ccedil;&otilde;es</h2>
+    
+        <p> O evento tem <b>entrada franca</b>, por&eacute;m os
+        participantes s&atilde;o encorajados a doar 2kg de alimentos
+        n&atilde;o perec&iacute;veis (exceto sal), que s&atilde;o
+        doados a institui&ccedil;&otilde;es de caridade da
+        regi&atilde;o.</p>
+        <p>Os alimentos s&atilde;o recebidos no momento do credenciamento.</p>
+    
+        <p>As inscri&ccedil;&otilde;es para participação no evento
+        estarão abertas a partir do dia <b>11 de Agosto de 2018</b>,
+        até o dia <b>31 de Agosto de 2018</b>. Serão
+        disponibilizadas <b>300</b> vagas para o
+        evento.</p>
+    
+  </div>
+</section>
+<section id="certificados">
+  <div class="container">
+    <h2 class="subtitle">Certificados</h2>
+    
+        <p>Serão fornecidos certificados digitais para os participantes
+        do evento, que confirmaram sua presença. Para obtê-los, você
+        deverá utilizar o email fornecido na sua inscrição para o
+        evento.</p>
+        <p>Não esqueça de confirmar sua presença no Credenciamento.</p>
+    
+  </div>
+</section>
 <section id="programacao">
-<div class="container"><h2 class="subtitle">Programa&ccedil;&atilde;o</h2>
-<p>Embora nosso objetivo seja cumprir a programação do evento, por motivos de força maior, a programação poderá ser alterada, caso seja necessário, sem aviso prévio.</p>
-<div class="schedule-tbl">
-  <table class="table table-responsive">
-    <thead>
-      <tr>
-        <th class="schedule-time">Hor&aacute;rio</th>
-<td class="schedule-slot" colspan="1" style="text-align:center">Sala C327<br/>
-<small>Sysadmin e Cloud</small>
-</td>
-<td class="schedule-slot" colspan="1" style="text-align:center">Sala C335<br/>
-<small>Desenvolvimento e Marketing</small>
-</td>
-<td class="schedule-slot" colspan="1" style="text-align:center">Sala C336<br/>
-<small>Distribuições e Aplicações</small>
-</td>
-<td class="schedule-slot" colspan="1" style="text-align:center">Sala C338<br/>
-<small>Sistemas embarcados e IoT</small>
-</td>
-      </tr>
-    </thead>
-  <tbody>
-</tr>
-
-<tr class="schedule-other">
-  <td class="schedule-time">08:30</td>
-  <td class="schedule-slot" colspan="4" style="text-align:center">
-    <span class="description">Recepção / Credenciamento</span>
-  </td>
-</tr>
-
-<tr class="schedule-other">
-  <td class="schedule-time">09:00</td>
-  <td class="schedule-slot" colspan="4" style="text-align:center">
-    <span class="description">Abertura do Evento<br/>Auditório Dom Antônio Zattera</span>
-  </td>
-</tr>
-
-<tr class="schedule-other">
-  <td class="schedule-time">09:30</td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-1"><span class="description">Aprendendo a aprender sobre Software Livre</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Jerônimo Madruga</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-2"><span class="description">Laravel: O Framework do PHP moderno</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Edécio Iepsen</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-3"><span class="description">Distribuições Linux</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Rafel Jeffman</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-4"><span class="description">Construindo um Storage de baixo custo e escalável com ARM e GlusterFS</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Leonardo Vaz</span>
-  </td>
-</tr>
-<tr class="schedule-other">
-  <td class="schedule-time">10:30</td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-5"><span class="description">Administração de Sistemas</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Vinicius Hax</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-6"><span class="description">Com que ônibus eu vou?<br/>Uma gentil introdução a Python.</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Rafael Guterres Jeffman</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-7"><span class="description">LibreOffice, a Suíte Office Livre</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Ivan Ritta</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-8"><span class="description">Melhorando o Sistema Eleitoral Brasileiro com a arquitetura Blockchain</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Pablo Margreff</span>
-  </td>
-</tr>
-<tr class="schedule-other">
-  <td class="schedule-time">11:30</td>
-  <td class="schedule-slot" colspan="4" style="text-align:center">
-    <span class="description">Intervalo para Almoço</span>
-  </td>
-</tr>
-<tr class="schedule-other">
-  <td class="schedule-time">13:00</td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-9"><span class="description">Introdução ao Ceph</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Leonardo Vaz</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-10"><span class="description">Saindo do modelo tradicional para o ágil: como se adaptar nessa transição,</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Rodrigo Ferro</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-11"><span class="description">Expressões regulares para impacientes<span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">João Avelino</span>
-  </td>
-  <td class="schedule-slot" colspan="1" rowspan="2" style="text-align:center;vertical-align:middle">
-    <a href="#speech-12"><span class="description">Yocto Project, um framework para desenvolvimento de Linux Embarcado</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Otavio Salvador</span>
-  </td>
-</tr>
-<tr class="schedule-other">
-  <td class="schedule-time">14:00</td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-13"><span class="description">Docker para desenvolvedores</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Anderson Conson</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-14"><span class="description">Comece Pelo Fim - Estratégia no Marketing Digital</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Robson Couto</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-15"><span class="description">Shell Scripts: uma interface para o Linux</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">João Avelino</span>
-  </td>
-</tr>
-<tr class="schedule-other">
-  <td class="schedule-time">15:00</td>
-  <td class="schedule-slot" colspan="4" style="text-align:center">
-    <span class="description"><i>Coffe Break</i></span>
-  </td>
-</tr>
-<tr class="schedule-other">
-  <td class="schedule-time">15:30</td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-16"><span class="description">Tudo o que você sempre quis saber sobre Cloud, mas tinha medo de perguntar!</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Leonardo Vaz</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-17"><span class="description">Detectando objetos em vídeo com OpenCV e Python</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Felipe Corrêa</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-18"><span class="description">Moodle direto das trincheiras: Como implementar e manter uma plataforma EAD baseada em Software Livre</span></a>
-    <span class="label label-success">Principiante</span>
-    <span class="speaker">Jerônimo Madruga</span>
-  </td>
-  <td class="schedule-slot" colspan="1" style="text-align:center">
-    <a href="#speech-19"><span class="description">Qt WebEngine em Sistemas Embarcados</span></a>
-    <span class="label label-warning">Intermediário</span>
-    <span class="speaker">Gustavo Barreto</span>
-  </td>
-</tr>
-<tr class="schedule-other">
-  <td class="schedule-time">16:30</td>
-  <td class="schedule-slot" colspan="4" style="text-align:center">
-    <span class="description">Painel: O impacto do Software Livre na carreira profissional<br/>Auditório Don Antônio Zaterra</span>
-    <span class="label label-info">Todo o Público</span>
-    <span class="speaker">Moderador: Carlos Schwab</span>
-  </td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
+    <div class="container">
+        <h2 class="subtitle">Programação</h2>
+        <p>Estamos trabalhando na programação do evento. Assim que a
+        programação começar a ser definida, será diulgada nesse espaço.
+        </p>
+    </div>
 </section>
 
-<section id="palestras">
+<section id="call4papers">
     <div class="container">
-        <h2 class="subtitle">Palestras</h2>
-
-        <div id="speech-1" class="speech-container">
-            <span class="speech-time">09:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Aprendendo a aprender sobre Software Livre
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a>
-            -->
-                </h3>
-                <span class="speech-description">
-                    Você fica perdido ao tentar aprender sobre software
-                    livre? Não sabe qual linguagem aprender primeiro? Não
-                    entende como as pessoas aprendem sozinhas a mexer
-                    naquela tela preta que chamam linha de comando?<br/>
-                    Não se desespere mais, pois está palestra é para você!
-                    Em ""Aprendendo a aprender sobre Software Livre"" será
-                    realizada uma conversa descontraída sobre os melhores
-                    métodos para se familiarizar com linguagens de
-                    programação, como tirar dúvidas que você não sabe
-                    perguntar ao Google e como contribuir de forma a
-                    ajudar outras pessoas!
-                </span>
-                <h3 class="speaker-name">Jerônimo Medina Madruga</h3>
-                <span class="speaker-bio">
-                    Jerônimo Medina Madruga trabalha na administração do
-                    Ambiente Virtual de Aprendizagem (AVA) do Centro de
-                    Educação a Distância (CEAD) da Universidade Federal
-                    de Pelotas (UFPel). Tem formação em técnico em
-                    eletrônica pelo Instituto Federal Sul-Rio-Grandense
-                    (IFSUL) e é ocasionalmente atuante em grupos ligados
-                    a divulgação e desenvolvimento de software livre. Já
-                    realizou mais de 40 palestras em eventos internacionais,
-                    nacionais e regionais, sobre temas ligados a
-                    administração de sistemas, programação e gerenciamento
-                    de software.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-2" class=speech-container>
-            <span class="speech-time">14:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Laravel: O Framework do PHP moderno
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                    Apresentar os principais recursos e benefícios do
-                    desenvolvimento de aplicações Web com o uso do Framework
-                    PHP Laravel.
-                </span>
-                <h3 class="speaker-name">Edécio Fernando Iepsen</h3>
-                <span class="speaker-bio">
-                    Professor da Faculdade de Tecnologia Senac Pelotas.
-                    Mestre em Ciência da Computação (UCPel) e Doutor em
-                    Informática na Educação (UFRGS). Atua no desenvolvimento
-                    de sistemas Web em PHP há mais de 10 anos.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-3" class=speech-container>
-            <span class="speech-time">10:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Distribuições Linux
-            <!--
-                <a href="http://rafaeljeffman.com/slides/linux_distro.pdf">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                    Um histórico das distribuições Linux, mostrando o
-                    porquê da sua criação, de onde vieram, como criá-las,
-                    e terminando na sua "última distribuição Linux".
-                </span>
-                <h3 class="speaker-name">Rafael Guterres Jeffman</h3>
-                <span class="speaker-bio">
-                    Mestre em Computação Aplicada pela Unisinos,
-                    é professor na Faculdade Senac Porto Alegre, onde leciona as
-                    disciplinas de algoritmos e estruturas de dados. Seus interesses
-                    de pesquisa são a percepção do mundo por computadores, através da
-                    visão computacional e do reconhecimento de voz, inteligência
-                    artificial, machine learning, e o ensivo de linguagens de
-                    programação assistido por computadores. Fotógrafo, iniciou
-                    um projeto para a criação de um ambiente baseado apenas em
-                    software livre para fotografia profissional.
-               </span>
-            </div>
-        </div>
-
-        <div id="speech-4" class=speech-container>
-            <span class="speech-time">09:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Construindo um Storage de baixo custo e escalável com ARM e GlusterFS
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                    Placas ARM, discos e software livre são tudo que você
-                    precisa para montar uma solução de armazenamento escalável,
-                    suportando volumes distribuidos e replicados.
-                    Nesta apresentação, falaremos sobre o processo de
-                    montagem do hardware, a instalação e configuração do
-                    GlusterFS e por fim a configuração dos volumes, mostrando
-                    o que é possível realizar com software livre, uma boa
-                    ideia e algumas centenas de Reais.
-                </span>
-                <h3 class="speaker-name">Leonardo Menezes Vaz</h3>
-                <span class="speaker-bio">
-                    Leonardo Vaz teve seu primeiro contato com o Software
-                    Livre no final de 1998, quando instalou o Red Hat Linux
-                    5.1 no seu antigo PC, e no últimos 19 anos tem participado
-                    da comunidade Brasileira. Atualmente trabalha com Sistemas
-                    de Arquivos distribuídos no time de Engenharia de Suporte
-                    da Red Hat.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-5" class=speech-container>
-            <span class="speech-time">10:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Administração de sistemas Linux: dicas e ferramentas
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">O objetivo da palestra
-                    será apresentar algumas dicas práticas para o dia-a-dia
-                    de quem pretende começar a trabalhar com administração
-                    de sistemas em geral e depois apresentar algumas
-                    ferramentas e comandos (nem tão conhecidos) que podem
-                    facilitar a vida de quem trabalha com administração de
-                    sistemas Linux. A palestra será baseada na experiência
-                    profissional do palestrante que trabalha profissionalmente
-                    com sistemas Linux por mais de 10 anos.
-                </span>
-                <h3 class="speaker-name">Vinícius Alves Hax</h3>
-                <span class="speaker-bio">
-                    Vinícius Alves Hax é formado em Engenharia de Computação
-                    e adotou o Linux como seu sistema principal em 2004.
-                    Se envolve com administração de servidores desde 2006.
-                    Já participou da organização de duas edições do TcheLinux
-                    em Rio Grande e palestrou algumas vezes em edições passadas
-                    do TcheLinux Pelotas. Seu github, um pouco empoeirado,
-                    é verdade, conta principalmente com alguns módulos
-                    para o gerenciador de configurações Puppet. Atualmente
-                    trabalha no IFSul, onde é parte da equipe de infraestrutura
-                    de TI, lidando principalmente com servidores Linux.
-                    Nos últimos anos tem se interessado bastante também por
-                    economia e política.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-6" class="speech-container">
-            <span class="speech-time">10:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Com que ônibus eu vou? Uma gentil introdução a Python.
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                Será realizada uma demonstração com a criação de um utilitário que indica qual ônibus uma pessoa pode utilizar para se locomover na cidade de Porto Alegre, utilizando os dados disponibilizados pela prefeitura da cidade. Nessa demostração serão apresentados alguns dos conceitos básicos de Python, utilizados na criação da aplicação.
-                </span>
-                <h3 class="speaker-name">Rafael Guterres Jeffman</h3>
-                <span class="speaker-bio">
-                    Mestre em Computação Aplicada pela Unisinos,
-                    é professor na Faculdade Senac Porto Alegre, onde leciona as
-                    disciplinas de algoritmos e estruturas de dados. Seus interesses
-                    de pesquisa são a percepção do mundo por computadores, através da
-                    visão computacional e do reconhecimento de voz, inteligência
-                    artificial, machine learning, e o ensivo de linguagens de
-                    programação assistido por computadores. Fotógrafo, iniciou
-                    um projeto para a criação de um ambiente baseado apenas em
-                    software livre para fotografia profissional.
-                </span>
-            </div>
-        </div>
-    
-        <div id="speech-7" class="speech-container">
-            <span class="speech-time">10:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">LibreOffice, a Suíte Office Livre
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                Uma abordagem geral sobre o LibreOffice que é uma suíte de escritório integrada por ferramentas que possibilitam de uma maneira fácil e prática, o desenvolvimento de trabalhos básicos como o processamento de textos, cálculos automáticos em planilhas e criação de apresentações, entre outros.
-                </span>
-                <h3 class="speaker-name">Ivan Ritta</h3>
-                <span class="speaker-bio">
-		Ivan Ritta é Contador, Professor e usa Software Livre desde 1999. No passado foi um dos contribuidores mais ativos em um forum sobre OpenOffice mantido pela UNICAMP.
-                </span>
-            </div>
-        </div>
-        
-        <div id="speech-8" class=speech-container>
-            <span class="speech-time">10:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Melhorando o Sistema Eleitoral Brasileiro com a arquitetura Blockchain
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                    A palestra tem como objetivo explicar como o processo
-                    eleitoral ocorre hoje e toda a obscuridade que ele
-                    envolve, depois será introduzido o conceito de blockchain
-                    e como uma eleição pode acontecer a partir deste sistema,
-                    melhorando e deixando o processo eleitoral mais transparente.
-                    Além disso se dará uma introdução da implementação e da stack
-                    usada para isso.
-                </span>
-                <h3 class="speaker-name">Pablo Margreff</h3>
-                <span class="speaker-bio">
-                    Estudante de ciência da computação, desenvolvedor web
-                    e contribuidor de projetos open source tanto com código
-                    quanto com documentação. Projeto próprio julia vm, um
-                    gerênciador de versão para a linguagem de programação
-                    Julia. Contribuidor do projeto Serenata de amor e
-                    também no projeto materialize (framework front-end
-                    com guidelines do material design) tanto com código
-                    quanto com tradução de documentação.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-9" class="speech-container">
-            <span class="speech-time">13:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Introdução ao Ceph
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                Ceph é um sistema de arquivos distribuído projetado para ter excelente desempenho, confiabilidade e escalabilidade. Nesta palestra será abordada a arquitetura do Ceph e também seus principais casos de uso.
-                </span>
-                <h3 class="speaker-name">Leonardo Menezes Vaz</h3>
-                <span class="speaker-bio">
-                    Leonardo Vaz teve seu primeiro contato com o Software
-                    Livre no final de 1998, quando instalou o Red Hat Linux
-                    5.1 no seu antigo PC, e no últimos 19 anos tem participado
-                    da comunidade Brasileira. Atualmente trabalha com Sistemas
-                    de Arquivos Distribuídos no time de Engenharia de Suporte
-                    da Red Hat.
-                </span>
-            </div>
-        </div>
-    
-        <div id="speech-10" class="speech-container">
-            <span class="speech-time">13:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Saindo do modelo tradicional para o ágil: como se adaptar nessa transição.
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                Nessa palestra falo sobre como dar os primeiros passos e como se adaptar na transição de um modelo mais tradicional de gestão de projetos (modelo Cascata) para o modelo ágil (utilizando Scrum).
-                </span>
-                <h3 class="speaker-name">Rodrigo Ferro</h3>
-                <span class="speaker-bio">
-Rodrigo Ferro é Coordenador de Projetos na Possible Brasil e possui um MBA na área de Gestão de Projetos.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-11" class="speech-container">
-            <span class="speech-time">13:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Expressões regulares para impacientes
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                Esta palestra busca apresentar, para quem tem pressa, como utilizar os recursos mais elementares das expressões regulares e sua aplicação.
-                </span>
-                <h3 class="speaker-name">João Avelino</h3>
-                <span class="speaker-bio">
-Tecnólogo em Processamento de Dados pela UCPel, Mestre em Ciência da Computação pela UFRGS. Ministrou aulas na UCPel e Faculdade SENAC Porto Alegre. Atualmente é Software Maintenance Engineer na Red Hat especializado em redes.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-12" class=speech-container>
-            <span class="speech-time">13:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Yocto Project, um framework para
-                desenvolvimento de Linux Embarcado
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">Entenda porque o Yocto 
-                Project vem sendo adotado por diferentes empresas no mundo
-                e em quais situações ele ajuda no desenvolvimento de seu
-                produto.</span>
-                <h3 class="speaker-name">Otávio Salvador</h3>
-                <span class="speaker-bio">Otávio Salvador é empresário,
-                escritor e entusiasta de Software Livre. Está envolvido com
-                desenvolvimento de Linux Embarcado desde 2008 em diferentes
-                indústrias.</span>
-            </div>
-        </div>
-
-        <div id="speech-13" class=speech-container>
-            <span class="speech-time">14:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Docker para desenvolvedores
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                    Apresentação do projeto Docker para automatização de tarefas dos desenvolvedores.
-                </span>
-                <h3 class="speaker-name">Anderson Minuto Consoni Vaz</h3>
-                <span class="speaker-bio">
-                    Socio Proprietário da WDHouse, Desenvolvedor a 11 anos
-                    e Consultor e Evangelista DevOps.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-14" class=speech-container>
-            <span class="speech-time">14:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Comece Pelo Fim - Estratégia no Marketing Digital
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                    Vou falar sobre a metodologia do Inbound Marketing
-                    aplicada em negócios que utilizam a internet para
-                    vender projetos, produtos, serviços ou ideias.<br/>
-                    É uma metodologia que vem crescendo nos últimos anos
-                    de forma exponencial no mundo e aqui no Brasil a cerca
-                    de 3 anos vem ganhando força e está sendo considerado
-                    e chamado de ""O Novo Marketing"".<br/>
-                    Vale a pena esse conteúdo para quem deseja ter seu
-                    próprio negócio ou quer se tornar referência/autoridade
-                    na área em que atua usando o compartilhamento de conteúdo
-                    na Internet para isso."
-                </span>
-                <h3 class="speaker-name">Robson Hellebrandt Couto</h3>
-                <span class="speaker-bio">
-                    Já contribui para DSpace. Atualmente sou co-fundador
-                    na PIPAR Inbound Marketing - uma empresa de Consultoria
-                    e Treinamentos na área de Marketing e Vendas.<br/>
-                    Já fui entregador de lanches no meu bairro, empacotador
-                    de supermercado, call-center, suporte técnico de
-                    informática, monitor EAD, programador php e front-end,
-                    analista de BI e agora empreendedor.<br/>
-                    Estudei na UCPel e me graduei em Análise e Desenvolvimento
-                    de Sistemas, depois concluí uma Pós-graduação em
-                    Marketing e Inovação em Comunicação.<br/>
-                    Já participei do projeto pontos de cultura UCPel.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-15" class=speech-container>
-            <span class="speech-time">14:00</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Shell Scripts: uma interface para o Linux
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                Apresentação de utilitários para construir interfaces amigáveis
-                para shell scripts.
-                </span>
-                <h3 class="speaker-name">João Avelino</h3>
-                <span class="speaker-bio">
-                    Tecnólogo em Processamento de Dados pela UCPel, Mestre
-                    em Ciência da Computação pela UFRGS. Ministrou aulas na
-                    UCPel e Faculdade SENAC Porto Alegre. Atualmente é
-                    Software Maintenance Engineer na Red Hat especializado
-                    em redes.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-16" class=speech-container>
-            <span class="speech-time">15:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Tudo o que você sempre quis saber sobre Cloud, mas tinha medo de perguntar!
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                    O tema Computação em Nuvem é vastamente usado nos
-                    dias de hoje, todavia se trata de um conceito um tanto
-                    abstrato para muitas pessoas. Nesta apresentação serão
-                    abordados os principais componentes de soluções de
-                    Computação em Nuvem, conceitos básicos como IaaS, PaaS
-                    e SaaS, e também os principais projetos de Open Source
-                    Cloud como Openstack, Openshift entre outros.
-                </span>
-                <h3 class="speaker-name">Leonardo Menezes Vaz</h3>
-                <span class="speaker-bio">
-                    Leonardo Vaz teve seu primeiro contato com o Software
-                    Livre no final de 1998, quando instalou o Red Hat Linux
-                    5.1 no seu antigo PC, e no últimos 19 anos tem participado
-                    da comunidade Brasileira. Atualmente trabalha com Sistemas
-                    de Arquivos Distribuídos no time de Engenharia de Suporte
-                    da Red Hat.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-17" class=speech-container>
-            <span class="speech-time">15:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Detectando objetos em vídeo com OpenCV e Python
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                    Uma visão geral de como utilizar tecnologias livres
-                    (como OpenCV, Python e GNU/Linux) para detectar e
-                    analisar objetos em vídeo, utilizando técnicas de
-                    Processamento de Imagens, Inteligência Artificial e
-                    Visão Computacional. Além disso, uma explanada rápida
-                    em como o processamento de imagens pode ajudar na
-                    indústria, medicina e até mesmo na segurança de pedestres.
-                    Nesta palestra, serão rodadas e dissecadas soluções rápidas
-                    e fáceis em OpenCV tais como filtros de imagem para detectar
-                    problemas em Raio X, detecção de rostos em fotos e vídeo,
-                    explicação do Viola-Jones e etapas de treinamento para
-                    detectar e rastrear objetos em vídeo.
-                </span>
-                <h3 class="speaker-name">Felipe Aguiar Corrêa</h3>
-                <span class="speaker-bio">
-                    Formado em Ciência da Computação pela Universidade
-                    Federal de Pelotas, com foco em pesquisa em Visão
-                    Computacional, mais especificamente rastreamento de
-                    pedestres em múltiplas câmeras de vídeo. Atualmente
-                    trabalha como desenvolvedor na empresa WD House e
-                    usuário de tecnologias livres fazem mais de 10 anos.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-18" class=speech-container>
-            <span class="speech-time">15:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Moodle direto das trincheiras:
-                    Como implementar e manter uma plataforma EAD baseada
-                    em Software Livre
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">
-                Esta palestra visa repassar a experiência de uso e
-                implementação de um dos Ambiente Virtuais de Aprendizagem
-                (AVA) mais utilizados no mundo, o Moodle! Serão discutidas
-                estratégias de implementação, quais as vantagens e
-                desvantagens do ambiente, como a comunidade do Moodle
-                funciona e o que é necessário para realizar uma instalação
-                adequada do mesmo.
-                </span>
-                <h3 class="speaker-name">Jerônimo Medina Madruga</h3>
-                <span class="speaker-bio">
-                    Jerônimo Medina Madruga trabalha na administração do
-                    Ambiente Virtual de Aprendizagem (AVA) do Centro de
-                    Educação a Distância (CEAD) da Universidade Federal
-                    de Pelotas (UFPel). Tem formação em técnico em
-                    eletrônica pelo Instituto Federal Sul-Rio-Grandense
-                    (IFSUL) e é ocasionalmente atuante em grupos ligados
-                    a divulgação e desenvolvimento de software livre. Já
-                    realizou mais de 40 palestras em eventos internacionais,
-                    nacionais e regionais, sobre temas ligados a
-                    administração de sistemas, programação e gerenciamento
-                    de software.
-                </span>
-            </div>
-        </div>
-
-        <div id="speech-19" class=speech-container>
-            <span class="speech-time">15:30</span>
-            <div class="speech-info">
-                <h3 class="speech-title">Qt WebEngine em Sistemas Embarcados
-            <!--
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a> -->
-                </h3>
-                <span class="speech-description">Desenvolver uma aplicação 
-                 híbrida pode ser uma tarefa árdua e complicada. Entretanto,
-                 o framework Qt disponibiliza o módulo Qt WebEngine que pode
-                 tornar as coisas um pouco mais simples.   </span>
-                <h3 class="speaker-name">Gustavo Barreto</h3>
-                <span class="speaker-bio">Gustavo Barreto é desenvolvedor de
-		    software há mais de 10 anos, com interesse especial por 
-                    Qt e C++ em ambientes Linux.</span>
-            </div>
-        </div>
-    <!-- TEMPLATE (2+16 linhas)
-        <div id="speech-"ID class="speech-container">
-            <span class="speech-time">HORA</span>
-            <div class="speech-info">
-                <h3 class="speech-title">TITULO
-                <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-                </a>
-                </h3>
-                <span class="speech-description">
-                DESCRIPTION
-                </span>
-                <h3 class="speaker-name">AUTHOR</h3>
-                <span class="speaker-bio">
-                </span>
-            </div>
-        </div>
-    -->
-
+        <h2 class="subtitle">Chamada de Trabalhos</h2>
+        <p>A Chamada de Trabalhos para o Tchelinux Pelotas está aberta e
+        caso você tenha interesse em submeter uma palestra, por favor,
+        preencha o <a target="_blank" href="https://goo.gl/forms/wuX0IHHTtLwc5FKk2">
+        formulário de submissão de palestras</a>.</p>
+        <p>O prazo máximo para submissão é
+        <b>12 de Agosto de 2018</b>, e os trabalhos escolhidos
+        serão publicados no dia <b>15 de Agosto de 2018.</b>
+        </p>
+        <p><a target="_blank" href="https://goo.gl/forms/wuX0IHHTtLwc5FKk2">Clique aqui e
+        submeta sua Palestra agora mesmo!</a></p>
     </div>
+</section>
+<section id="local">
+    <script>
+        var latitude = -31.774585
+        var longitude = -52.341002
+    </script>
+    <div class="container">
+        <h2 class="subtitle">Local</h2>
+        <p>
+            Universidade Católica de Pelotas<br/>
+            UCPel Campus I<br/>Rua Gonçalves Chaves, 373<br/>
+            Pelotas - Rio Grande do Sul
+        </p>
+        <div id="map_canvas" style="width: 100%; height: 350px;"></div>
+        <input type="text" id="search-route" class="form-control" placeholder="Digite sua localiza&ccedil;&atilde;o">
+        <div id="directions-panel"></div>
+        
+    </div>
+</section>
+<section id="apoio">
+    <div class="container">
+        <div id="apoio_evento">
+            <h2 class="subtitle">Apoio</h2>
+            
+            <h4>Institucional</h4>
+            <ul class="apoio-list">
+                <li class="apoio-item">
+                    <a href="https://ucpel.edu.br" title="Institui&ccedil;&atilde;o" class="apoio-logo apoio-link">
+                    <img src="images/ucpel.png" alt="UCPEL" class="photo"/>
+                    </a>
+                </li>
+                
+            </ul>
+            <h4>Gostaria de patrocinar os eventos do Tchelinux?</h4>
+            <ul class="apoio-list">
+                <li class="apoio-item">
+                    <a href="https://goo.gl/eLSqYm" title="Seja um patrocinador" class="apoio-logo apoio-link">
+                    <span class="glyphicon glyphicon-plus"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-inline" id="footer-menu">
+                    <li class="active"><a href="#">Tchelinux</a></li>
+                    <li><a href="#inscricao">Inscri&ccedil;&otilde;es</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
+                    <li><a href="#programacao">Programa&ccedil;&atilde;o</a></li>
+                    <li><a href="#palestras">Palestras</a></li>
+                    <li><a href="#local">Local</a></li>
+                    <li><a href="#apoio">Apoio</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer><div style="display:none">
+    <!-- Site scripts -->
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <!-- scrollspy -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/scrollspy.min.js"></script>
 </div>
 
-      <section id="local">
-        <div class="container">
-          <h2 class="subtitle">Local</h2>
-          <p>
-            UCPel Campus I<br/>
-            Gonçalves chaves, 373<br />
-	    Pelotas - RS<br />
-	   <br />
-          </p>
-          <div id="map_canvas" style="width: 100%; height: 350px;"></div>
-          <input type="text" id="search-route" class="form-control" placeholder="Digite sua localização">
-          <div id="directions-panel"></div>
-        </div>
-        </section>
-        <section id="apoio">
-            <div class="container">
-                <h2 class="subtitle">Apoio</h2>
-                <h4>Institucional</h4>
-                <ul class="apoio-list">
-                  <li class="apoio-item">
-                    <a href="http://www.ucpel.tche.br/portal/" title="Instituição" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-                      <img src="images/ucpel.png" alt="UCPel" class="photo"/>
-                    </a>
-                  </li>
-                </ul>
-
-				<h4>Patrocinio</h4>
-
-				<ul class="apoio-list">
-
-
-					<li class="apoio-item">
-						<a href="https://www.ossystems.com.br" title="O.S.Systems" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-						  <img src="images/logo_ossystems.png" alt="O.S.Systems" class="photo">
-						</a>
-					</li>
-
-					<li class="apoio-item">
-						<a href="https://www.possible.com/" title="Possible" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-						  <img src="images/logo_possible.png" alt="Possible" class="photo">
-						</a>
-					</li>
-
-
-					<li class="apoio-item">
-						<a href="https://magen.in/" title="Magen.in" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-						  <img src="images/logo_magenin.png" alt="Magen.in" class="photo">
-						</a>
-					</li>
-
-					<li class="apoio-item">
-						<a href="http://www.wdhouse.com.br/" title="WDHouse" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-						  <img src="images/logo_wdhouse.png" alt="WDHouse" class="photo">
-						</a>
-					</li>
-
-
-				</ul>
-
-
-				<ul class="apoio-list">
-
-					<li class="apoio-item">
-						<a href="https://baciotticursos.com.br/" title="Baciotti Cursos" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-						  <img src="images/logo_baciotti.png" alt="Baciotti" class="photo">
-						</a>
-					</li>
-
-					<li class="apoio-item">
-						<a href="https://www.redhat.com/en/global/brazil" title="Red Hat Brasil" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-						  <img src="images/logo_redhat.png" alt="Red Hat Brasil" class="photo">
-						</a>
-					</li>
-
-					<li class="apoio-item">
-						<a href="http://www.doctornet.com.br/" title="DoctorNet" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-						  <img src="images/logo_doctornet.png" alt="DoctorNet" class="photo">
-						</a>
-					</li>
-
-					<li class="apoio-item">
-						<a href="http://pipar.com.br/" title="Pipar" class="apoio-logo apoio-link" target="_blank" style="width:200px">
-						  <img src="images/logo_pipar.png" alt="Pipar" class="photo">
-						</a>
-					</li>
-
-				</ul>
-
-                <h4>Gostaria de Patrocinar os eventos do Tchelinux?</h4>
-                <ul class="apoio-item">
-                  <li class="apoio-item">
-                    <a href="https://goo.gl/eLSqYm" title="Seja um patrocinador" class="apoio-logo apoio-link" target="_blank">
-                      <span class="glyphicon glyphicon-plus"></span>
-                    </a>
-                  </li>
-                </ul>
-            </div>
-        </section>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline" id="footer-menu">
-                        <li class="active"><a href="#">Tchelinux</a></li>
-                        <li><a href="#local">Local</a></li>
-                        <li><a href="#apoio">Apoio</a></li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-    <div style="display:none;">
-        <script type="text/javascript" src="javascript.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/scrollspy.min.js"></script>
-    </div>
-    </body>
-</html>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '516306181856599'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=516306181856599&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code --></body>
+<html>
