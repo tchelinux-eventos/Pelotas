@@ -12,8 +12,10 @@ a:hover > span.label.label-default.slides {
     background-color:#222;
 }
 
-a, a:hover, a:active, a:focus {
-    outline: 0;
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #000;
+  outline: 0;
 }
 
 body {
@@ -36,9 +38,9 @@ h2 {
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
-    text-align:justify;
+  text-align:justify;
 }
 
 header {
@@ -262,9 +264,7 @@ footer {
     margin: 0 30px 30px 0;
 }
 
-.apoio-list {
-    min-height: 250px;
-}
+.apoio-list { }
 
 .apoio-item > a {
     width:250px;
@@ -296,9 +296,20 @@ a.apoio-logo.apoio-link:hover {
     list-style: none;
 }
 
-#local_map > #map_image {
-    margin: auto;
-    width: 100%;
-    text-align: center;
-}
 
+/* Google maps responsive */
+ 
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+ 
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }     
