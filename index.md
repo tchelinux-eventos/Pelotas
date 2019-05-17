@@ -8,7 +8,7 @@ O grupo de usuários de Software Livre Tchelinux, em parceria com a [Universidad
 
 A Chamada de Trabalhos está aberta e o prazo para submissão de propostas de palestra é 22 de Junho de 2019. Os trabalhos escolhidos serão anúnciados no dia 24 de Junho de 2019.
 
-[**Clique aqui e submeta sua palestra agora mesmo!**](https://forms.gle/JfEyjhs6BoBeTQtY7)
+<a href="https://forms.gle/JfEyjhs6BoBeTQtY7" target="_blank"><b>Clique aqui e submeta sua palestra agora mesmo!</b></a>
 
 ## Inscrições
 
