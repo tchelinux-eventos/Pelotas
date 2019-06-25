@@ -4,12 +4,6 @@
 
 O grupo de usuários de Software Livre Tchelinux, em parceria com a [Universidade Católica de Pelotas](https://ucpel.edu.br/), tem o prazer de convidar a comunidade para participar do evento que ocorrerá no dia **24 de Agosto de 2019 a partir das 8:30h** na UCPel em Pelotas.
 
-## Chamada de Trabalhos
-
-A Chamada de Trabalhos está aberta e o prazo para submissão de propostas de palestra é 22 de Junho de 2019. Os trabalhos escolhidos serão anúnciados no dia 24 de Junho de 2019.
-
-<a href="https://forms.gle/JfEyjhs6BoBeTQtY7" target="_blank"><b>Clique aqui e submeta sua palestra agora mesmo!</b></a>
-
 ## Inscrições
 
  O evento tem **entrada franca**, porém os participantes são encorajados a doar 2kg de alimentos não perecíveis (exceto sal), que são doados a instituições de caridade da região. Os alimentos são recebidos no momento do credenciamento.
