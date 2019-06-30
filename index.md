@@ -2,7 +2,7 @@
 
 ## Sobre
 
-O grupo de usuários de Software Livre Tchelinux, em parceria com a [Universidade Católica de Pelotas](https://ucpel.edu.br/), tem o prazer de convidar a comunidade para participar do evento que ocorrerá no dia **24 de Agosto de 2019 a partir das 8:30h** na UCPel em Pelotas.
+O grupo de usuários de Software Livre Tchelinux, em parceria com a [Universidade Católica de Pelotas](https://ucpel.edu.br/), tem o prazer de convidar a comunidade para participar do evento que ocorrerá no dia **24 de Agosto de 2019 a partir das 8:00h** na UCPel em Pelotas.
 
 ## Inscrições
 
