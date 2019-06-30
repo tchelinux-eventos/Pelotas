@@ -249,8 +249,7 @@ Apresentação sobre desenvolvimento de aplicações embarcadas usando o toolkit
 Você sabia que 20% de nossas soluções são resultado de 80% de nossos esforços ao longo do dia? Aprenda a organizar sua vida com metodologias e apps, e encontre tempo para fazer também o que gosta! 
 
 ### Júlio César Medina Madruga
-
-[Júlio César Medina Madruga](https://www.facebook.com/seujulio) é Cantor, TAE de T.I., entusiasta de sustentabilidade, PNL e coaching. Trabalha no Núcleo de Tecnologia de Informação da Universidade Federal do Rio Grande – FURG. Um bagunceiro no limiar entre a Informação e a Comunicação, fazendo papel de advogado do diabo dos aplicativos onipresentes de anotação em prol da organização pessoal.
+[Júlio César Medina Madruga](https://www.linkedin.com/in/juliomadruga) é Cantor, TAE de T.I., entusiasta de sustentabilidade, PNL e coaching. Trabalha no Núcleo de Tecnologia de Informação da Universidade Federal do Rio Grande – FURG. Um bagunceiro no limiar entre a Informação e a Comunicação, fazendo papel de advogado do diabo dos aplicativos onipresentes de anotação em prol da organização pessoal.
 
 ## Local
 
