@@ -146,7 +146,7 @@ Falar em containers é quase falar do passado, pois atualmente esse tipo de tecn
 
 ### A anatomia de um CVE: como falhas de segurança surgem e são resolvidas em projetos de Software Livre 
 
-Nesta apresentação serão vistas como falhas de segurança surgem e são resolvidas em projetos de Software Livre. 
+Se você já ouviu falar em CVE, CVSS, CWE, CRD e outras siglas estranhas ao se informar sobre um bug de segurança e ficou curioso, esta palestra é para você.  Serão abordados os principais conceitos e processos relacionados ao gerenciamento e coordenação do trabalho de corrigir falhas de segurança no mundo open source, e também como identificar, avaliar e reportar falhas de maneira correta e colocar CVEs no seu currículo.
 
 ### Fabio Olive Leite
 
