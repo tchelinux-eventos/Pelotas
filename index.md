@@ -2,27 +2,27 @@
 
 ## Sobre
 
-O grupo de usuários de Software Livre Tchelinux, em parceria com a [Universidade Católica de Pelotas](https://ucpel.edu.br/), tem o prazer de convidar a comunidade para participar do evento que ocorrerá no dia **24 de Agosto de 2019 a partir das 8:00h** na UCPel em Pelotas.
+O grupo de usuários de Software Livre Tchelinux, em parceria com a [Universidade Católica de Pelotas](https://ucpel.edu.br/), tem o prazer de convidar a comunidade para participar do evento que ocorrerá no dia **24 de Agosto de 2019 a partir das 8:30h** no Campus I da Universidade Católica de Pelotas.
+
+> **Importante:** O credenciamento e as atividades de abertura do evento irão acontecer no **Auditório Dom Antônio Zattera** (acesso pela rua Três de Maio quase esquina com Félix da Cunha) e as demais palestras irão acontecer nas **Salas 327, 333, 335, 336 e 338** no 3º andar do Campus I da UCPel (acesso pela rua Gonçalves Chaves, 373). 
 
 ## Inscrições
 
- O evento tem **entrada franca**, porém os participantes são encorajados a doar 2kg de alimentos não perecíveis (exceto sal), que são doados a instituições de caridade da região. Os alimentos são recebidos no momento do credenciamento.
+ O evento tem **entrada franca**, porém os participantes são **encorajados a doar 2kg de alimentos não perecíveis (exceto sal)**, que são encaminhados ao **Banco de Alimentos de Pelotas**. Os alimentos serão recebidos no momento do credenciamento.
 
-<center><a href="https://pelotas.tchelinux.org/inscricoes/" style="color:#ff4040"><b>Clique aqui e faça sua inscrição!</b></a></center>
+<center><a href="https://pelotas.tchelinux.org/inscricoes/" style="color:#ff4040"><h3><b>Clique aqui e faça sua inscrição!</b></h3></a></center>
 
 ## Certificados
 
-Serão fornecidos certificados digitais para os participantes do evento, que confirmaram sua presença. Para obtê-los, você deverá utilizar o email fornecido na sua inscrição para o evento.
-
-**Importante:** Não esqueça de confirmar sua presença no credenciamento.
+Serão fornecidos certificados digitais para os participantes do evento, que confirmaram sua presença. Para obtê-los, você deverá utilizar o email fornecido na sua inscrição para o evento. Não esqueça de confirmar sua presença no credenciamento para que os certificados possam ser emitidos.
 
 ## Programação
 
 | <center> Horário </center> | <center> **Sala 327** <br> SysAdmin, DevOps e Big Data <br> <small>(65 lugares)</small> </center> | <center> **Sala 333** <br> Desenvolvimento e Banco de Dados <br> <small>(80 lugares)</small> </center> | <center> **Sala 335** <br> IoT, Kernel e Embarcados <br> <small>(55 lugares)</small> </center> | <center> **Sala 336** <br> Aplicativos, Multimídia e Produtividade <br> <small>(65 lugares)</small> </center> | <center> **Sala 338** <br> Comunidade, Distros e Segurança <br> <small>(80 lugares)</small> </center> |
 |:--------------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
 | **08:30** <td colspan=6><center>**Credenciamento**</center> |
-| **09:00** <td colspan=6><center>**Abertura**<br> <span class="label label-info">Todo o público</span> <br>  Equipe Tchelinux <br> </center> |
-| **09:15** <td colspan=5><center>[**Keynote: 25 anos de Linux na UCPel**](#Keynote:_25_anos_de_Linux_na_UCPel)<br> <span class="label label-success">Principiante</span> <br>Adenauer Yamin e Fabio Olivé Leite<br> </center> |
+| **09:00** <td colspan=6><center>**Abertura**<br> Auditório Dom Antônio Zattera <br> <span class="label label-info">Todo o público</span> <br>  Equipe Tchelinux <br> </center> |
+| **09:15** <td colspan=5><center>[**Keynote: 25 anos de Linux na UCPel**](#Keynote:_25_anos_de_Linux_na_UCPel)<br> Auditório Dom Antônio Zattera <br> <span class="label label-info">Todo o público</span> <br>Adenauer Yamin e Fabio Olivé Leite<br> </center> |
 | **10:20** | [**Afinal o que aconteceu com o HTTP2?**](#Afinal_o_que_aconteceu_com_o_HTTP2?) <br> <span class="label label-warning">Intermediário</span> <br> Nelson Dutra Junior |  [**Banco de Dados Livres: Conceitos e Aplicações**](#Banco_de_Dados_Livres:_Conceitos_e_Aplicações) <br> <span class="label label-success">Principiante</span> <br> Willian Barreto Froes | [**Tecnologia assistiva para deficientes visuais com auxilio de beacons.**](#Tecnologia_assistiva_para_deficientes_visuais_com_auxilio_de_beacons.) <br> <span class="label label-success">Principiante</span> <br> Everton Almeida | [**Explorando Editores de Texto Open Source**](#Explorando_Editores_de_Texto_Open_Source) <br> <span class="label label-success">Principiante</span> <br> Gabriel Prestes Ritta | [**A caminho da certificação OCAJP 8**](#A_caminho_da_certificação_OCAJP_8) <br> <span class="label label-warning">Intermediário</span> <br> Érick Luiz Fonsêca Lopes | 
 | **11:10** | [**Principais motivos pelos quais você precisa ter um backup do seu ambiente**](#Principais_motivos_pelos_quais_você_precisa_ter_um_backup_do_seu_ambiente) <br> <span class="label label-success">Principiante</span> <br> Bruna Martins | [**PHP e PostgreSQL: Dois elefantes ajudando no seu projeto!**](#PHP_e_PostgreSQL:_Dois_elefantes_ajudando_no_seu_projeto!) <br> <span class="label label-warning">Intermediário</span> <br> Everton Catto Heckler | [**Fazer ou não fazer meu próprio SO, eis a questão**](#Fazer_ou_não_fazer_meu_próprio_SO,_eis_a_questão) <br> <span class="label label-warning">Intermediário</span> <br> Carlos Santos | [**Rock & Code - Como criar música programando**](#Rock_&_Code_-_Como_criar_música_programando) <br> <span class="label label-success">Principiante</span> <br> Jerônimo Medina Madruga | [**O bom, o mau e o feio: três momentos da instalação do Linux**](#O_bom,_o_mau_e_o_feio:_três_momentos_da_instalação_do_Linux) <br> <span class="label label-success">Principiante</span> <br> Vinícius Alves Hax | 
 | **12:00** <td colspan=6><center>**Intervalo para Almoço**</center> |
@@ -31,7 +31,7 @@ Serão fornecidos certificados digitais para os participantes do evento, que con
 | **15:10** <td colspan=6><center>**Coffee-Break**</center> |
 | **15:40** | [**Filosofando Sobre Testes**](#Filosofando_Sobre_Testes) <br> <span class="label label-success">Principiante</span> <br> Julio Biason | [**Introdução a Vue.js**](#Introdução_a_Vue.js) <br> <span class="label label-success">Principiante</span> <br> João Pedro Sabbado Pereira | [**UpdateHub: A solução para atualização Over The Air de dispositivos IoT**](#UpdateHub:_A_solução_para_atualização_Over_The_Air_de_dispositivos_IoT) <br> <span class="label label-warning">Intermediário</span> <br> Otavio Salvador e Diandra Martini | [** Maneiras fantásticas de tornar sua organização pessoal mais refrescante do que meias limpas!**](#Maneiras_fantásticas_de_tornar_sua_organização_pessoal_mais_refrescante_do_que_meias_limpas!) <br> <span class="label label-success">Principiante</span> <br> Júlio César Medina Madruga | [**(In)Segurança na Internet**](#Insegurança_na_Internet) <br> <span class="label label-warning">Intermediário</span> <br> Diego Luiz Silva da Costa | 
 | **16:30** | [**O que é Ciência de Dados **](#O_que_é_Ciência_de_Dados) <br> <span class="label label-success">Principiante</span> <br> Lorenzo Fagundes Antunes | [**Dados no espaço-tempo: Trabalhando com Dados Georreferenciados no MongoDB**](#Dados_no_espaço-tempo:_Trabalhando_com_Dados_Georreferenciados_no_MongoDB) <br> <span class="label label-success">Principiante</span> <br> Ricardo Peixoto Robaina | [**Zephyr Project, o RTOS do momento!**](#Zephyr_Project,_o_RTOS_do_momento!) <br> <span class="label label-warning">Intermediário</span> <br> Otavio Salvador | [**Usando métodos ágeis para alavancar o seu projeto**](#Usando_métodos_ágeis_para_alavancar_o_seu_projeto) <br> <span class="label label-success">Principiante</span> <br> Rodrigo Ferro | [**Aumentando a segurança em casa: hands on prático e simples**](#Aumentando_a_segurança_em_casa:_hands_on_prático_e_simples) <br> <span class="label label-warning">Intermediário</span> <br> Diego Luiz Silva da Costa | 
-| **17:20** <td colspan=6><center>**Encerramento**<br> <span class="label label-info">Todo o público</span> <br> Equipe Tchelinux <br> </center> |
+| **17:20** <td colspan=6><center>**Encerramento**<br> Auditório Dom Antônio Zattera <br>  <span class="label label-info">Todo o público</span> <br> Equipe Tchelinux <br> </center> |
 
 ## Palestras
 
