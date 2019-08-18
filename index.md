@@ -18,7 +18,7 @@ Serão fornecidos certificados digitais para os participantes do evento, que con
 
 ## Programação
 
-| <center> Horário </center> | <center> **Sala 1** <br> SysAdmin, DevOps e Big Data <br> <small>(65 lugares)</small> </center> | <center> **Sala 2** <br> Desenvolvimento e Banco de Dados <br> <small>(80 lugares)</small> </center> | <center> **Sala 3** <br> IoT, Kernel e Embarcados <br> <small>(55 lugares)</small> </center> | <center> **Sala 4** <br> Aplicativos, Multimídia e Produtividade <br> <small>(65 lugares)</small> </center> | <center> **Sala 5** <br> Comunidade, Distros e Segurança <br> <small>(80 lugares)</small> </center> |
+| <center> Horário </center> | <center> **Sala 327** <br> SysAdmin, DevOps e Big Data <br> <small>(65 lugares)</small> </center> | <center> **Sala 333** <br> Desenvolvimento e Banco de Dados <br> <small>(80 lugares)</small> </center> | <center> **Sala 335** <br> IoT, Kernel e Embarcados <br> <small>(55 lugares)</small> </center> | <center> **Sala 336** <br> Aplicativos, Multimídia e Produtividade <br> <small>(65 lugares)</small> </center> | <center> **Sala 338** <br> Comunidade, Distros e Segurança <br> <small>(80 lugares)</small> </center> |
 |:--------------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
 | **08:30** <td colspan=6><center>**Credenciamento**</center> |
 | **09:00** <td colspan=6><center>**Abertura**<br> <span class="label label-info">Todo o público</span> <br>  Equipe Tchelinux <br> </center> |
