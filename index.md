@@ -304,6 +304,7 @@ Neste hands on, irei fazer uma demostração simples de como ter um ambiente seg
 
 [![O.S.Systems](images/logo_ossystems.png)](https://www.ossystems.com.br/)
 [![Adentro Datacenter Solutions](images/logo_adentro.png)](https://www.adentrocloud.com.br/)
+[![Zetaflops](images/logo_zetaflops.png)](http://zetaflops.com.br/)
 
 ### Divulgação
 
