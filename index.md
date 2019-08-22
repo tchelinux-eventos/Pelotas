@@ -29,7 +29,7 @@ Serão fornecidos certificados digitais para os participantes do evento, que con
 | **13:30** | [**DevOps: Passado, presente e futuro**](#DevOps:_Passado,_presente_e_futuro) <br> <span class="label label-success">Principiante</span> <br> Cristiano dos Santos Diedrich | [**Porque Você Deve Aprender Rust**](#Porque_Você_Deve_Aprender_Rust) <br> <span class="label label-success">Principiante</span> <br> Julio Biason | [**Entendendo o Systemd**](#Entendendo_o_Systemd) <br> <span class="label label-warning">Intermediário</span> <br> João Avelino Bellomo Filho | [**"Essa câmera faz fotos muito boas, né?"**](#"Essa_câmera_faz_fotos_muito_boas,_né?") <br> <span class="label label-success">Principiante</span> <br> Rafael Guterres Jeffman | [**O que mudou ao longo de 25 anos trabalhando com Software Livre?**](#O_que_mudou_ao_longo_de_25_anos_trabalhando_com_Software_Livre?) <br> <span class="label label-success">Principiante</span> <br> Carlos Santos |
 | **14:20** | [**Kubernetes para iniciantes**](#Kubernetes_para_iniciantes) <br> <span class="label label-success">Principiante</span> <br> Crisitiano dos Santos Diedrich | [**Introdução ao desenvolvimento Android com Kotlin**](#Introdução_ao_desenvolvimento_Android_com_Kotlin) <br> <span class="label label-success">Principiante</span> <br> Ricardo Peixoto Robaina | [**UpdateHub: A solução para atualização Over The Air de dispositivos IoT**](#UpdateHub:_A_solução_para_atualização_Over_The_Air_de_dispositivos_IoT) <br> <span class="label label-warning">Intermediário</span> <br> Otavio Salvador e Diandra Martini | [**Fazendo Arte com Software Livre**](#Fazendo_Arte_com_Software_Livre) <br> <span class="label label-success">Principiante</span> <br> Jefferson e Silva Nascimento | [**A anatomia de um CVE: como falhas de segurança surgem e são resolvidas em projetos de Software Livre**](#A_anatomia_de_um_CVE:_como_falhas_de_segurança_surgem_e_são_resolvidas_em_projetos_de_Software_Livre) <br> <span class="label label-warning">Intermediário</span> <br> Fabio Olive Leite | 
 | **15:10** <td colspan=6><center>**Coffee-Break**</center> |
-| **15:40** | [**Filosofando Sobre Testes**](#Filosofando_Sobre_Testes) <br> <span class="label label-success">Principiante</span> <br> Julio Biason | [**Introdução a Vue.js**](#Introdução_a_Vue.js) <br> <span class="label label-success">Principiante</span> <br> João Pedro Sabbado Pereira | [**Framework Yocto**](#Framework_Yocto) <br> <span class="label label-warning">Intermediário</span> <br> Otavio Salvador | [** Maneiras fantásticas de tornar sua organização pessoal mais refrescante do que meias limpas!**](#Maneiras_fantásticas_de_tornar_sua_organização_pessoal_mais_refrescante_do_que_meias_limpas!) <br> <span class="label label-success">Principiante</span> <br> Júlio César Medina Madruga | [**(In)Segurança na Internet**](#Insegurança_na_Internet) <br> <span class="label label-warning">Intermediário</span> <br> Diego Luiz Silva da Costa | 
+| **15:40** | [**Filosofando Sobre Testes**](#Filosofando_Sobre_Testes) <br> <span class="label label-success">Principiante</span> <br> Julio Biason | [**Introdução a Vue.js**](#Introdução_a_Vue.js) <br> <span class="label label-success">Principiante</span> <br> João Pedro Sabbado Pereira | [**Os benefícios da utilização do Yocto**](#Os_benefícios_da_utilização_do_Yocto) <br> <span class="label label-warning">Intermediário</span> <br> Otavio Salvador | [** Maneiras fantásticas de tornar sua organização pessoal mais refrescante do que meias limpas!**](#Maneiras_fantásticas_de_tornar_sua_organização_pessoal_mais_refrescante_do_que_meias_limpas!) <br> <span class="label label-success">Principiante</span> <br> Júlio César Medina Madruga | [**(In)Segurança na Internet**](#Insegurança_na_Internet) <br> <span class="label label-warning">Intermediário</span> <br> Diego Luiz Silva da Costa | 
 | **16:30** | [**O que é Ciência de Dados **](#O_que_é_Ciência_de_Dados) <br> <span class="label label-success">Principiante</span> <br> Lorenzo Fagundes Antunes | [**Dados no espaço-tempo: Trabalhando com Dados Georreferenciados no MongoDB**](#Dados_no_espaço-tempo:_Trabalhando_com_Dados_Georreferenciados_no_MongoDB) <br> <span class="label label-success">Principiante</span> <br> Ricardo Peixoto Robaina | [**Zephyr Project, o RTOS do momento!**](#Zephyr_Project,_o_RTOS_do_momento!) <br> <span class="label label-warning">Intermediário</span> <br> Otavio Salvador | [**Usando métodos ágeis para alavancar o seu projeto**](#Usando_métodos_ágeis_para_alavancar_o_seu_projeto) <br> <span class="label label-success">Principiante</span> <br> Rodrigo Ferro | [**Aumentando a segurança em casa: hands on prático e simples**](#Aumentando_a_segurança_em_casa:_hands_on_prático_e_simples) <br> <span class="label label-warning">Intermediário</span> <br> Diego Luiz Silva da Costa | 
 | **17:20** <td colspan=6><center>**Encerramento**<br> Auditório Dom Antônio Zattera <br>  <span class="label label-info">Todo o público</span> <br> Equipe Tchelinux <br> </center> |
 
@@ -181,6 +181,8 @@ Pensando na velocidade com que dispositivos IoT vem ganhando espaço nos mais di
 
 [**Otavio Salvador**](https://github.com/otavio) é empresário, escritor e entusiasta de Software Livre. Está envolvido com desenvolvimento de Linux Embarcado desde 2008 em diferentes indústrias.
 
+[**Diandra Martini**](https://br.linkedin.com/in/diandramartini) é formada em Relações Internacionais pela UFPel e trabalhando atualmente como Analista de Negócios na O.S. Systems.
+
 ### Fazendo Arte com Software Livre
 
 O objetivo desta apresentação é demonstrar Softwares Livres como o OpenToonz, Krita e Blender voltados ao campo artístico e seus usos.
@@ -212,15 +214,19 @@ Tem por objetivo construir o ambiente para o desenvolvimento, utilizando o Frame
 
 [**João Pedro Sabbado Pereira**](https://www.linkedin.com/in/joão-pedro-sabbado-pereira-a41508128) é Desenvolvedor no Grupo Lins Ferrão (Lojas Pompeia). Cursando o último semestre do curso Análise e Desenvolvimento de Sistemas oferecido pelo IFSul Campus Camaquã.
 
-### Framework Yocto
+### Os benefícios da utilização do Yocto
 
-Apresentação sobre o framework Yocto.
+O Yocto Project é um build system que oferece ferramentas para empresas e indivíduos desenvolverem sistemas operacionais personalizados baseados em Linux. 
+
+Exercendo um importante papel no processo de desenvolvimento, o Yocto oferece alto grau de flexibilidade e customização, proporcionando liberdade para operar em diversas plataformas.
+
+Hospedado pela Linux Foundation, é um projeto colaborativo de código aberto que provê ferramentas e espaço para o compartilhamento de tecnologias, configurações e práticas.
+
+A O.S. Systems atua ativamente junto à comunidade de usuários e desenvolvedores, sendo uma [**Organização Participante do Yocto Project**](https://www.yoctoproject.org/members/os-systems/) desde 2013.
 
 ### Otavio Salvador
 
 [**Otavio Salvador**](https://github.com/otavio) é empresário, escritor e entusiasta de Software Livre. Está envolvido com desenvolvimento de Linux Embarcado desde 2008 em diferentes indústrias.
-
-[**Diandra Martini**](https://br.linkedin.com/in/diandramartini) é formada em Relações Internacionais pela UFPel e trabalhando atualmente como Analista de Negócios na O.S. Systems.
 
 ###  Maneiras fantásticas de tornar sua organização pessoal mais refrescante do que meias limpas! 
 
